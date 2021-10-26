@@ -4,9 +4,9 @@ R version of FUNGuild with offline mode
 
 ### Notice:
 
-1.Only support UNITE annotated taxonomy data.
+  1.Only support UNITE annotated taxonomy data.
 
-2. R packages 'optparse','jsonlite','funr','stringr' are required.
+  2. R packages 'optparse','jsonlite','funr','stringr' are required.
 
 ### Useage:
 
