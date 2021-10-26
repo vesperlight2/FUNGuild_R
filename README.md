@@ -6,7 +6,7 @@ R version of FUNGuild with offline mode
 2. R packages 'optparse','jsonlite','funr','stringr' are required.
 
 ### Useage:
-Rscript Funguild_R.r -i otu_table.txt -t taxonomy -f tsv -o funguild.txt
+Rscript $PATH_OF_SCRIPT/Funguild_R.r -i otu_table.txt -t taxonomy -f tsv -o funguild.txt
 
 -i: input otu/asv table
 
@@ -16,4 +16,4 @@ Rscript Funguild_R.r -i otu_table.txt -t taxonomy -f tsv -o funguild.txt
 
 -o: output file name
 
-The results table is the same format as FUNGuild.
+Replace $PATH_OF_SCRIPT to the path of Funguild_R.r script.The results table is the same format as FUNGuild.
