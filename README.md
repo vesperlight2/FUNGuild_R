@@ -9,8 +9,11 @@ R version of FUNGuild with offline mode
 Rscript Funguild_R.r -i otu_table.txt -t taxonomy -f tsv -o funguild.txt
 
 -i: input otu/asv table
+
 -t: appoint the column name of taxa info
+
 -f: table type, tsv or csv
+
 -o: output file name
 
 The results table is the same format as FUNGuild.
